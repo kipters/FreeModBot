@@ -1,0 +1,51 @@
+{
+    "[markdown]": {
+      "editor.rulers": [ 80 ]
+    },
+    "[csharp]": {
+      "editor.rulers": [ 120 ]
+    },
+    "[yaml]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2
+    },
+    "[sln]": {
+      "editor.detectIndentation": false,
+      "editor.insertSpaces": false
+    },
+    "[json]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2
+    },
+    "[jsonc]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2
+    },
+    "[msbuild]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2
+    },
+    "[xml]": {
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2
+    },
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/bin": true,
+      "**/obj": true,
+      "coverage.info": false,
+      ".idea": true,
+      ".vs": true
+    },
+    "dotnet-test-explorer.testProjectPath": "src/*.Tests/",
+    "coverage-gutters.lcovname": "**/coverage.info",
+    "coverage-gutters.coverageReportFileName": "coverage-report/index.html",
+    "coverage-gutters.showRulerCoverage": true
+  }
+  

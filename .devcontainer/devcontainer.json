@@ -1,0 +1,23 @@
+{
+  "name": "FreeModBot",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devenv",
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "formulahendry.dotnet-test-explorer",
+    "ms-dotnettools.csharp",
+    "ms-azuretools.vscode-docker",
+    "editorconfig.editorconfig",
+    "hbenl.vscode-test-explorer",
+    "ms-vsliveshare.vsliveshare-pack",
+    "lostintangent.vsls-whiteboard",
+    "eamodio.gitlens",
+    "tintoy.msbuild-project-tools",
+    "zxh404.vscode-proto3",
+    "logerfo.sln-support",
+    "ryanluker.vscode-coverage-gutters",
+    "ms-python.python",
+    "ms-vscode.powershell"
+  ]
+}

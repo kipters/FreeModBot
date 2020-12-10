@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+      "formulahendry.dotnet-test-explorer",
+      "ms-dotnettools.csharp",
+      "ms-azuretools.vscode-docker",
+      "editorconfig.editorconfig",
+      "hbenl.vscode-test-explorer",
+      "ms-vsliveshare.vsliveshare-pack",
+      "lostintangent.vsls-whiteboard",
+      "eamodio.gitlens",
+      "tintoy.msbuild-project-tools",
+      "logerfo.sln-support",
+      "ryanluker.vscode-coverage-gutters",
+      "ms-python.python",
+      "ms-vscode.powershell"
+    ]
+  }
+  
