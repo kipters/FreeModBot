@@ -12,6 +12,9 @@
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/src/FreeModBot/bin/Debug/net5.0/FreeModBot.dll",
             "args": [],
+            "env": {
+              "DOTNET_ENVIRONMENT": "Development"
+            },
             "cwd": "${workspaceFolder}/src/FreeModBot",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
