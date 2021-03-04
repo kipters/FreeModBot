@@ -4,7 +4,7 @@ services:
     build: .
     volumes: 
       - ..:/workspace
-      - ./persistence/nuget:/root/nuget
+      - ./persistence/nuget:/root/.nuget
       - ./persistence/user-secrets:/root/.microsoft/usersecrets
       - /var/run/docker.sock:/var/run/docker.sock
     command: sleep infinity
