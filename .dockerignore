@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+.devcontainer/
+nupkg/
+build/
+.editorconfig
+.gitlab-ci.yml
