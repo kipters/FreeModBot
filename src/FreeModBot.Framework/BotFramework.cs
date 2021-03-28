@@ -17,7 +17,7 @@ namespace FreeModBot.Framework
         private readonly ITelegramBotClient _botClient;
         private readonly ImmutableDictionary<string, ITelegramCommand> _commands;
         private readonly ImmutableArray<ITelegramCommand> _adminCommands;
-        private string _username;
+        private string? _username;
 
         public BotFramework(ITelegramBotClient botClient, IReadOnlyList<ITelegramCommand> commands)
         {
